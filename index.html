@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Практична робота: методи масивів</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Практична робота</h1>
+    <p>Практичне використання методів масивів у JavaScript</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Завдання 1. Фільтрація та пошук</h2>
+      <h3>Усі товари</h3>
+      <div id="t1-all"></div>
+      <h3>Товари в наявності</h3>
+      <div id="t1-available"></div>
+      <h3>Пошук товару за назвою</h3>
+      <div class="controls">
+        <input id="t1-input" type="text" placeholder="Наприклад: Монітор">
+        <button id="t1-btn">Знайти</button>
+      </div>
+      <div id="t1-result"></div>
+    </section>
+
+    <section>
+      <h2>Завдання 2. Групування та сортування</h2>
+      <h3>Студенти, згруповані за групами</h3>
+      <div id="t2-groups"></div>
+      <h3>Студенти за оцінкою (спадання)</h3>
+      <div id="t2-sorted"></div>
+    </section>
+
+    <section>
+      <h2>Завдання 3. Статистичний аналіз</h2>
+      <h3>Працівники</h3>
+      <div id="t3-all"></div>
+      <p id="t3-average"></p>
+      <h3>Працівник із найбільшим досвідом</h3>
+      <div id="t3-experienced"></div>
+    </section>
+
+    <section>
+      <h2>Завдання 4. Дані про книги</h2>
+      <h3>Усі книги</h3>
+      <div id="t4-all"></div>
+      <h3>Непрочитані книги</h3>
+      <div id="t4-unread"></div>
+      <h3>Книги автора (за роком, зростання)</h3>
+      <div class="controls">
+        <select id="t4-author"></select>
+      </div>
+      <div id="t4-author-result"></div>
+      <h3>Книги з рейтингом вище 4 (спадання)</h3>
+      <div id="t4-top"></div>
+    </section>
+
+    <section>
+      <h2>Завдання 5. Вкладені об'єкти</h2>
+      <h3>Замовлення</h3>
+      <div id="t5-all"></div>
+      <h3>Сума витрат клієнта</h3>
+      <div class="controls">
+        <select id="t5-customer"></select>
+      </div>
+      <p id="t5-result"></p>
+    </section>
+
+    <section>
+      <h2>Завдання 6. Об'єднання даних</h2>
+      <h3>Товари</h3>
+      <div id="t6-products"></div>
+      <h3>Покупки</h3>
+      <div id="t6-purchases"></div>
+      <h3>Загальний дохід по кожному товару</h3>
+      <div id="t6-sales"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
